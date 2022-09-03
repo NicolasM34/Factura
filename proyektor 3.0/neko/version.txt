@@ -1,0 +1,26 @@
+3.7
++ Se añade botón para pantalla completa al abrir el Visor de Versículos
++ Se mejoró el efecto de transición de las letras
++ Se añade desvanecimiento al "Borrar Texto"
++ Se añade control de velocidad (experimental) para los anuncios en movimiento
++ Se añade sección "Patrocinadores" en el menú "Contacto"
++ Se cambio el código para que al buscar canciones no se trabe al escribir
++ Se permite borrar y editar canciones en linea, solo en "Mi Cancionero"
++ Correcciones y mejoras generales
+
+3.6
++ Se añade la opción para mostrar o no la versión de la biblia.
++ Se corrigió el orden de los Versiculos en la Versión - King James
++ Corrección al eliminar canciones (Error solo en windows)
+
+3.5
++ Ahora se Actualiza al Abrir, no al Reiniciar
++ Ventana Externa "Solo Letras"
++ Importación de Canciones desde Google
++ Busqueda de Videos en Youtube
++ Visualizar Anuncios en Movimiento o no en la Ventana de Letras
++ Los Videos de Youtube ahora solo se carga en el Visor, no en la Vista Previa
++ Cambios Visuales
++ Corrección de Errores al editar canciones
++ Corrección de Errores en la ventana externa
++ Corrección de Errores minimos

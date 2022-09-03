@@ -1,0 +1,8 @@
+DESCR GRAFCET
+325 96 1068 1234 0.500000 0 0
+2 1 step.ct
+3 1 trans.ct
+1 2 action.ct
+2 2 sync.ct
+3 2 sub.ct
+1 3 grfctio.ct

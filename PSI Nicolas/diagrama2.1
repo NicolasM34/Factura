@@ -1,0 +1,146 @@
+Algoritmo sin_titulo
+	// aplicacion de bienvenida
+	Definir nombre_usuario Como Caracter
+	Definir edad_usuario Como Entero
+	Definir in_A Como Logico
+	Definir in_B Como Logico
+	Definir out_C Como Logico
+	Escribir 'Hola gente, bienvenidos'
+	Escribir 'gente, me regalas tu nombre'
+	Leer nombre_usuario
+	Escribir 'hola ',nombre_usuario,',bienvenido'
+	Escribir nombre_usuario,' me regalas tu edad?'
+	Leer edad_usuario
+	Si edad_usuario<23 Entonces
+		Escribir nombre_usuario,' puedes juegar'
+		Escribir 'por lo tanto puede disfrutar'
+		Escribir "¿Cual operacion quieres"
+		Escribir "1 : and"
+		Escribir "2 : or"
+		Escribir "3 : xor"
+		Escribir "4 : not"
+		Escribir "5 : nand"
+		Escribir "6 : nor"
+		Escribir " 7 : xnor"
+		Escribir "8 : yes"
+		Leer operacion
+		Segun operacion Hacer
+			1:
+				Escribir 'ingrese el valor de A'
+				Leer in_A
+				Escribir 'ingrese el valor de B'
+				Leer in_B
+				Si in_A=0 Entonces
+					out_C <- 0
+				SiNo
+					Si in_B=0 Entonces
+						out_C <- 0
+					SiNo
+						out_C <- 1
+					FinSi
+				FinSi
+			2:
+				Escribir "ingrese el valor de A"
+				Leer in_A
+				Escribir "ingrese el valor de B"
+				Leer in_B
+				Si in_A = 1 Entonces
+					C <- 0
+				SiNo
+					Si in_B = 0 Entonces
+						C <- 0
+					SiNo
+						out_C <- 1
+					FinSi
+				FinSi
+			3:
+				Escribir "ingrese el valor de A"
+				Leer in_A
+				Escribir "ingrese el valor de B"
+				Leer in_B
+				Si in_A = 1 Entonces
+					Si in_B= 0 Entonces
+						out_C <- 1
+					SiNo
+						out_C <- 0
+					FinSi
+				SiNo
+					Si in_B = 1 Entonces
+						out_C <- 0
+					SiNo
+						out_C <- 1
+					FinSi
+				FinSi
+			4:
+				Escribir "ingrese el valor de A"
+				Leer in_A
+				Escribir "ingrese el valor de B"
+				Leer in_B
+				Si in_A= 1 Entonces
+					in_C <- 0
+				SiNo
+					in_C <- 1
+				FinSi
+			5:
+				Escribir "ingrese el valor de A" 
+				Leer in_A
+				Escribir "ingrese el valor de B"
+				Leer in_B
+				Si in_A= 1 Entonces
+					out_C <- 0
+				SiNo
+					Si in_B = 1 Entonces
+						out_C <- 1
+					SiNo
+						out_C <- 0
+					FinSi
+				FinSi
+			6:
+				Escribir "ingrese el valor de A"
+				Leer in_A 
+				Escribir "ingrese el valor de B"
+				Leer in_B
+				Si in_A = 1 Entonces
+					in_C <- 0
+				SiNo
+					Si in_B= 0 Entonces
+						C <- 1
+					SiNo
+						C <- 0
+					FinSi
+				FinSi
+			7:
+				Escribir "ingrese el valor de A"
+				Leer in_A
+				Escribir "ingrese el valor de B"
+				Leer in_B
+				Si in_A = 1 Entonces
+					Si in_B = 0 Entonces
+						in_C <- 0
+					SiNo
+						in_C <- 1
+					FinSi
+				SiNo
+					Si in_B = 0 Entonces
+						in_C <- 1
+					SiNo
+						in_C <- 0
+					FinSi
+				FinSi
+			8:
+				Escribir "ingrese el valor de A"
+				Leer in_A
+				Escribir "ingrese el valor de B"
+				Leer in_B
+				Si in_A= 1 Entonces
+					in_C <- 1 
+				SiNo
+					in_C <- 0
+				FinSi
+			9:
+		FinSegun
+		Escribir 'el valor de C es ' out_ C
+	SiNo
+		Escribir nombre_usuario,' no puedes juegar'
+	FinSi
+FinAlgoritmo
